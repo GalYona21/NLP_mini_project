@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="heb">תורה</title>
+        <title xml:lang="en">Torah</title>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup by <name>Dicta</name></resp>
+          <orgName>Dicta</orgName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure type="words">
+        </measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Dicta -- The Israel Center for Text Analysis</publisher>
+        <pubPlace>Jerusalem</pubPlace>
+        <address>
+          <street>Am Ve Olamo 8</street>
+          <name type="city">Jerusalem</name>
+          <name type="country">Israel</name>
+        </address>
+        <availability status="free">
+          <p>No rights reserved</p>
+        </availability>
+        <date>2017-02-07</date>
+      </publicationStmt>
+      <notesStmt>
+        <note>
+          <p>Units: smallUnit:ab, largeUnit:div3</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Unknown</settlement>
+            <repository>sefaria</repository>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <note type="sefaria-ref">http://www.sefaria.org/texts//Tanakh</note>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <author xml:lang="en" resp="sefaria">
+            </author>
+            <author xml:lang="heb" resp="sefaria">
+            </author>
+            <title xml:lang="en" resp="sefaria">
+            </title>
+            <title xml:lang="heb" resp="sefaria">
+            </title>
+            <imprint>
+              <pubPlace resp="sefaria">
+              </pubPlace>
+              <date resp="sefaria">
+              </date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxamony xml:id="sefaria.taxanomy">
+            <category>
+              <catDesc resp="sefaria">
+              </catDesc>
+              <catDesc resp="sefaria">
+              </catDesc>
+            </category>
+          </taxamony>
+        </classDecl>
+      </encodingDesc>
+    </fileDesc>
+  </teiHeader>
+  <text type="book" xml:id="Tanakh.Torah" DisplayName_Heb="תורה" DisplayName_Eng="Torah">
+    <group>
+      <body xlink:type="simple" xlink:href="./Torah/Genesis.xml#div1" type="book" xml:id="Tanakh.Torah.Genesis" DisplayName_Heb="בראשית" DisplayName_Eng="Genesis" />
+      <body xlink:type="simple" xlink:href="./Torah/Exodus.xml#div1" type="book" xml:id="Tanakh.Torah.Exodus" DisplayName_Heb="שמות" DisplayName_Eng="Exodus" />
+      <body xlink:type="simple" xlink:href="./Torah/Leviticus.xml#div1" type="book" xml:id="Tanakh.Torah.Leviticus" DisplayName_Heb="ויקרא" DisplayName_Eng="Leviticus" />
+      <body xlink:type="simple" xlink:href="./Torah/Numbers.xml#div1" type="book" xml:id="Tanakh.Torah.Numbers" DisplayName_Heb="במדבר" DisplayName_Eng="Numbers" />
+      <body xlink:type="simple" xlink:href="./Torah/Deuteronomy.xml#div1" type="book" xml:id="Tanakh.Torah.Deuteronomy" DisplayName_Heb="דברים" DisplayName_Eng="Deuteronomy" />
+    </group>
+  </text>
+</TEI>

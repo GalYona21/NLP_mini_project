@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="heb">נביאים</title>
+        <title xml:lang="en">Prophets</title>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup by <name>Dicta</name></resp>
+          <orgName>Dicta</orgName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure type="words">
+        </measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Dicta -- The Israel Center for Text Analysis</publisher>
+        <pubPlace>Jerusalem</pubPlace>
+        <address>
+          <street>Am Ve Olamo 8</street>
+          <name type="city">Jerusalem</name>
+          <name type="country">Israel</name>
+        </address>
+        <availability status="free">
+          <p>No rights reserved</p>
+        </availability>
+        <date>2017-02-07</date>
+      </publicationStmt>
+      <notesStmt>
+        <note>
+          <p>Units: smallUnit:ab, largeUnit:div3</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Unknown</settlement>
+            <repository>sefaria</repository>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <note type="sefaria-ref">http://www.sefaria.org/texts//Tanakh</note>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <author xml:lang="en" resp="sefaria">
+            </author>
+            <author xml:lang="heb" resp="sefaria">
+            </author>
+            <title xml:lang="en" resp="sefaria">
+            </title>
+            <title xml:lang="heb" resp="sefaria">
+            </title>
+            <imprint>
+              <pubPlace resp="sefaria">
+              </pubPlace>
+              <date resp="sefaria">
+              </date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxamony xml:id="sefaria.taxanomy">
+            <category>
+              <catDesc resp="sefaria">
+              </catDesc>
+              <catDesc resp="sefaria">
+              </catDesc>
+            </category>
+          </taxamony>
+        </classDecl>
+      </encodingDesc>
+    </fileDesc>
+  </teiHeader>
+  <text type="book" xml:id="Tanakh.Prophets" DisplayName_Heb="נביאים" DisplayName_Eng="Prophets">
+    <group>
+      <body xlink:type="simple" xlink:href="./Prophets/Joshua.xml#div1" type="book" xml:id="Tanakh.Prophets.Joshua" DisplayName_Heb="יהושע" DisplayName_Eng="Joshua" />
+      <body xlink:type="simple" xlink:href="./Prophets/Judges.xml#div1" type="book" xml:id="Tanakh.Prophets.Judges" DisplayName_Heb="שופטים" DisplayName_Eng="Judges" />
+      <body xlink:type="simple" xlink:href="./Prophets/I_Samuel.xml#div1" type="book" xml:id="Tanakh.Prophets.I_Samuel" DisplayName_Heb="שמואל א" DisplayName_Eng="I Samuel" />
+      <body xlink:type="simple" xlink:href="./Prophets/II_Samuel.xml#div1" type="book" xml:id="Tanakh.Prophets.II_Samuel" DisplayName_Heb="שמואל ב" DisplayName_Eng="II Samuel" />
+      <body xlink:type="simple" xlink:href="./Prophets/I_Kings.xml#div1" type="book" xml:id="Tanakh.Prophets.I_Kings" DisplayName_Heb="מלכים א" DisplayName_Eng="I Kings" />
+      <body xlink:type="simple" xlink:href="./Prophets/II_Kings.xml#div1" type="book" xml:id="Tanakh.Prophets.II_Kings" DisplayName_Heb="מלכים ב" DisplayName_Eng="II Kings" />
+      <body xlink:type="simple" xlink:href="./Prophets/Isaiah.xml#div1" type="book" xml:id="Tanakh.Prophets.Isaiah" DisplayName_Heb="ישעיהו" DisplayName_Eng="Isaiah" />
+      <body xlink:type="simple" xlink:href="./Prophets/Jeremiah.xml#div1" type="book" xml:id="Tanakh.Prophets.Jeremiah" DisplayName_Heb="ירמיהו" DisplayName_Eng="Jeremiah" />
+      <body xlink:type="simple" xlink:href="./Prophets/Ezekiel.xml#div1" type="book" xml:id="Tanakh.Prophets.Ezekiel" DisplayName_Heb="יחזקאל" DisplayName_Eng="Ezekiel" />
+      <body xlink:type="simple" xlink:href="./Prophets/Hosea.xml#div1" type="book" xml:id="Tanakh.Prophets.Hosea" DisplayName_Heb="הושע" DisplayName_Eng="Hosea" />
+      <body xlink:type="simple" xlink:href="./Prophets/Joel.xml#div1" type="book" xml:id="Tanakh.Prophets.Joel" DisplayName_Heb="יואל" DisplayName_Eng="Joel" />
+      <body xlink:type="simple" xlink:href="./Prophets/Amos.xml#div1" type="book" xml:id="Tanakh.Prophets.Amos" DisplayName_Heb="עמוס" DisplayName_Eng="Amos" />
+      <body xlink:type="simple" xlink:href="./Prophets/Obadiah.xml#div1" type="book" xml:id="Tanakh.Prophets.Obadiah" DisplayName_Heb="עובדיה" DisplayName_Eng="Obadiah" />
+      <body xlink:type="simple" xlink:href="./Prophets/Jonah.xml#div1" type="book" xml:id="Tanakh.Prophets.Jonah" DisplayName_Heb="יונה" DisplayName_Eng="Jonah" />
+      <body xlink:type="simple" xlink:href="./Prophets/Micah.xml#div1" type="book" xml:id="Tanakh.Prophets.Micah" DisplayName_Heb="מיכה" DisplayName_Eng="Micah" />
+      <body xlink:type="simple" xlink:href="./Prophets/Nahum.xml#div1" type="book" xml:id="Tanakh.Prophets.Nahum" DisplayName_Heb="נחום" DisplayName_Eng="Nahum" />
+      <body xlink:type="simple" xlink:href="./Prophets/Habakkuk.xml#div1" type="book" xml:id="Tanakh.Prophets.Habakkuk" DisplayName_Heb="חבקוק" DisplayName_Eng="Habakkuk" />
+      <body xlink:type="simple" xlink:href="./Prophets/Zephaniah.xml#div1" type="book" xml:id="Tanakh.Prophets.Zephaniah" DisplayName_Heb="צפניה" DisplayName_Eng="Zephaniah" />
+      <body xlink:type="simple" xlink:href="./Prophets/Haggai.xml#div1" type="book" xml:id="Tanakh.Prophets.Haggai" DisplayName_Heb="חגי" DisplayName_Eng="Haggai" />
+      <body xlink:type="simple" xlink:href="./Prophets/Zechariah.xml#div1" type="book" xml:id="Tanakh.Prophets.Zechariah" DisplayName_Heb="זכריה" DisplayName_Eng="Zechariah" />
+      <body xlink:type="simple" xlink:href="./Prophets/Malachi.xml#div1" type="book" xml:id="Tanakh.Prophets.Malachi" DisplayName_Heb="מלאכי" DisplayName_Eng="Malachi" />
+    </group>
+  </text>
+</TEI>

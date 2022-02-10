@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="heb">כתובים</title>
+        <title xml:lang="en">Writings</title>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup by <name>Dicta</name></resp>
+          <orgName>Dicta</orgName>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure type="words">
+        </measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Dicta -- The Israel Center for Text Analysis</publisher>
+        <pubPlace>Jerusalem</pubPlace>
+        <address>
+          <street>Am Ve Olamo 8</street>
+          <name type="city">Jerusalem</name>
+          <name type="country">Israel</name>
+        </address>
+        <availability status="free">
+          <p>No rights reserved</p>
+        </availability>
+        <date>2017-02-07</date>
+      </publicationStmt>
+      <notesStmt>
+        <note>
+          <p>Units: smallUnit:ab, largeUnit:div3</p>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Unknown</settlement>
+            <repository>sefaria</repository>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <note type="sefaria-ref">http://www.sefaria.org/texts//Tanakh</note>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <author xml:lang="en" resp="sefaria">
+            </author>
+            <author xml:lang="heb" resp="sefaria">
+            </author>
+            <title xml:lang="en" resp="sefaria">
+            </title>
+            <title xml:lang="heb" resp="sefaria">
+            </title>
+            <imprint>
+              <pubPlace resp="sefaria">
+              </pubPlace>
+              <date resp="sefaria">
+              </date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxamony xml:id="sefaria.taxanomy">
+            <category>
+              <catDesc resp="sefaria">
+              </catDesc>
+              <catDesc resp="sefaria">
+              </catDesc>
+            </category>
+          </taxamony>
+        </classDecl>
+      </encodingDesc>
+    </fileDesc>
+  </teiHeader>
+  <text type="book" xml:id="Tanakh.Writings" DisplayName_Heb="כתובים" DisplayName_Eng="Writings">
+    <group>
+      <body xlink:type="simple" xlink:href="./Writings/Psalms.xml#div1" type="book" xml:id="Tanakh.Writings.Psalms" DisplayName_Heb="תהילים" DisplayName_Eng="Psalms" />
+      <body xlink:type="simple" xlink:href="./Writings/Proverbs.xml#div1" type="book" xml:id="Tanakh.Writings.Proverbs" DisplayName_Heb="משלי" DisplayName_Eng="Proverbs" />
+      <body xlink:type="simple" xlink:href="./Writings/Job.xml#div1" type="book" xml:id="Tanakh.Writings.Job" DisplayName_Heb="איוב" DisplayName_Eng="Job" />
+      <body xlink:type="simple" xlink:href="./Writings/Song_of_Songs.xml#div1" type="book" xml:id="Tanakh.Writings.Song_of_Songs" DisplayName_Heb="שיר השירים" DisplayName_Eng="Song of Songs" />
+      <body xlink:type="simple" xlink:href="./Writings/Ruth.xml#div1" type="book" xml:id="Tanakh.Writings.Ruth" DisplayName_Heb="רות" DisplayName_Eng="Ruth" />
+      <body xlink:type="simple" xlink:href="./Writings/Lamentations.xml#div1" type="book" xml:id="Tanakh.Writings.Lamentations" DisplayName_Heb="איכה" DisplayName_Eng="Lamentations" />
+      <body xlink:type="simple" xlink:href="./Writings/Ecclesiastes.xml#div1" type="book" xml:id="Tanakh.Writings.Ecclesiastes" DisplayName_Heb="קהלת" DisplayName_Eng="Ecclesiastes" />
+      <body xlink:type="simple" xlink:href="./Writings/Esther.xml#div1" type="book" xml:id="Tanakh.Writings.Esther" DisplayName_Heb="אסתר" DisplayName_Eng="Esther" />
+      <body xlink:type="simple" xlink:href="./Writings/Daniel.xml#div1" type="book" xml:id="Tanakh.Writings.Daniel" DisplayName_Heb="דניאל" DisplayName_Eng="Daniel" />
+      <body xlink:type="simple" xlink:href="./Writings/Ezra.xml#div1" type="book" xml:id="Tanakh.Writings.Ezra" DisplayName_Heb="עזרא" DisplayName_Eng="Ezra" />
+      <body xlink:type="simple" xlink:href="./Writings/Nehemiah.xml#div1" type="book" xml:id="Tanakh.Writings.Nehemiah" DisplayName_Heb="נחמיה" DisplayName_Eng="Nehemiah" />
+      <body xlink:type="simple" xlink:href="./Writings/I_Chronicles.xml#div1" type="book" xml:id="Tanakh.Writings.I_Chronicles" DisplayName_Heb="דברי הימים א" DisplayName_Eng="I Chronicles" />
+      <body xlink:type="simple" xlink:href="./Writings/II_Chronicles.xml#div1" type="book" xml:id="Tanakh.Writings.II_Chronicles" DisplayName_Heb="דברי הימים ב" DisplayName_Eng="II Chronicles" />
+    </group>
+  </text>
+</TEI>
